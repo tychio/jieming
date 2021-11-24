@@ -13,6 +13,12 @@
 			}
 		},
 		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "联系方式"
+			}
+		},
+		{
 			"path": "pages/miniapp/index",
 			"style": {
 				"navigationBarTitleText": "小程序开发"
