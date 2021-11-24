@@ -9,7 +9,7 @@
 		</view>
 		<view class="nav">
 			<navigator url="/pages/miniapp/index" class="nav-btn" hover-class="navigator-hover">
-				<button type="default">小程序开发</button>
+				<button type="primary">小程序开发</button>
 			</navigator>
 			<navigator url="/pages/contact/index" class="nav-btn" hover-class="navigator-hover">
 				<button type="default">联系方式</button>
