@@ -1,8 +1,19 @@
 <template>
 	<view class="content">
 		<image class="logo" src="/static/logo.png"></image>
-		<view>
-			<text class="title">{{title}}</text>
+		<view class="title">
+			<text>{{title}}</text>
+		</view>
+		<view class="subtitle">
+			<text>{{subtitle}}</text>
+		</view>
+		<view class="nav">
+			<navigator url="/pages/about/index" class="nav-btn" hover-class="navigator-hover">
+				<button type="default">关于我</button>
+			</navigator>
+			<navigator url="/pages/miniapp/index" class="nav-btn" hover-class="navigator-hover">
+				<button type="default">小程序开发</button>
+			</navigator>
 		</view>
 	</view>
 </template>
@@ -11,7 +22,8 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: '皆鸣开发',
+				subtitle: '鏦鏦铮铮  金铁皆鸣'
 			}
 		},
 		onLoad() {
@@ -32,9 +44,9 @@
 	}
 
 	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
+		height: 240rpx;
+		width: 240rpx;
+		margin: 100rpx auto 60rpx auto;
 	}
 
 	.text-area {
@@ -43,7 +55,23 @@
 	}
 
 	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+		font-size: 24px;
+		margin-bottom: 30px;
+		color: #aa1313;
+		font-weight: 300;
+		letter-spacing: 3px;
+	}
+	.subtitle {
+		margin-bottom: 10px;
+		font-size: 12px;
+		font-weight: 300;
+		letter-spacing: 8px;
+		color: #b17878
+	}
+	.nav {
+		width: 100%;
+	}
+	.nav-btn {
+		margin: 10px;
 	}
 </style>
