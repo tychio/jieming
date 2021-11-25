@@ -1,5 +1,14 @@
 <template>
 	<view class="content">
+		<view class="topbar">
+			<view class="avatar">
+				<open-data type="userAvatarUrl"></open-data>
+			</view>
+			<view class="info">
+				<text>你好，</text>
+				<open-data type="userNickName"></open-data>
+			</view>
+		</view>
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="title">
 			<text>{{title}}</text>
@@ -50,6 +59,27 @@
 		height: 240rpx;
 		width: 240rpx;
 		margin: 100rpx auto 60rpx auto;
+	}
+
+	.topbar {
+		display: flex;
+		flex-direction: row-reverse;
+		width: 100%;
+	}
+
+	.info {
+		margin: 3px 0;
+		font-size: 12px;
+		color: #888;
+	}
+
+	.avatar {
+		overflow:hidden;  
+		width: 40rpx;
+		height: 40rpx;
+		margin: 5rpx;
+		border-radius: 100%;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 	}
 
 	.text-area {
