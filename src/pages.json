@@ -3,13 +3,31 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于我"
+			}
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "联系方式"
+			}
+		},
+		{
+			"path": "pages/miniapp/index",
+			"style": {
+				"navigationBarTitleText": "小程序开发"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "皆鸣开发",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	}
